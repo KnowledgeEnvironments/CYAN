@@ -1,0 +1,3 @@
+[submodule "HaterMIPS"]
+	path = rtl/cpu
+	url = ../H8-MIPS.git

@@ -1,0 +1,45 @@
+# Local build and scratch products
+/build/
+/tmp/
+/artifacts/
+
+# User-supplied firmware and disk images
+/firmware/
+*.bin
+*.img
+*.chd
+*.xz
+*.hex
+*.memh
+*.mif
+
+# Vivado-generated project and IP products
+.Xil/
+vivado*.jou
+vivado*.log
+fpga/kcu105_cyan/build/
+fpga/kcu105_cyan/ip/
+fpga/kcu105_cyan/src/kcu105_cyan_top.sv
+fpga/kcu105_cyan/src/kcu105_cyan_traffic.sv
+*.bit
+*.ltx
+*.dcp
+*.xci
+
+# Simulator/compiler products
+**/obj_dir/
+**/obj_dir_*/
+**/build/
+__pycache__/
+*.py[cod]
+*.o
+*.a
+*.log
+*.vcd
+*.fst
+
+# Editor and operating-system metadata
+.DS_Store
+.vscode/
+*.swp
+*~

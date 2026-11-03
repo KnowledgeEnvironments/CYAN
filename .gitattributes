@@ -1,0 +1,10 @@
+fpga/kcu105_cyan/ip/** -whitespace
+fpga/kcu105_cyan/src/** -whitespace
+fpga/kcu105_cyan/reports/** -whitespace
+*.patch -whitespace
+captures/**/serial/*.log -text -whitespace
+captures/**/console.log -text -whitespace
+captures/**/manifest.txt -whitespace
+# Verbatim X query outputs; their terminal blank lines are capture evidence.
+captures/cyan-alpha-buttonfly-repaint-20260905/buttonfly-restored-settled.log -text -whitespace
+captures/cyan-alpha-buttonfly-repaint-20260905/buttonfly-restored-tree.log -text -whitespace
